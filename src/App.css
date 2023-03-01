@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav{
+  background-color: rgb(49, 49, 44);
+  padding: 16px 32px;
+}
+.link{
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+
+.nav-bar {
+  height: 70px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar h2 {
+  font-size: 40px;
+}
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: yellow;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+#heading{
+  color: white;
+}
+
+
+/* totalbelling */
+.totalbellingdetails {
+  padding: 24px;
+  margin:24px;
+ 
+}
+/* MAin Total Divb */
+.mainTotal{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 24px;
+  margin:24px;
+  
+  border: 5px solid rgb(49, 49, 44);
+}
+.middleTotal{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
 }
